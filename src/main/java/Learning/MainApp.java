@@ -5,10 +5,13 @@ import org.apache.camel.main.Main;
 import java.util.ArrayList;
 import java.util.List;
 
+//import static Learning.ExecuteAround.testExecuteAround;
+import static Learning.ExecuteAroundARM.testExecuteAroundARM;
 import static Learning.Listener.testListener;
 import static Learning.OuterInner.testOuterInner;
 import static Learning.ParentChildInvoke.testLinking;
 import static Learning.ParentChildInvoke.testParentChild;
+import static Learning.ResourceARM.testResourceARM;
 import static Learning.VarExchange.testExchange;
 import static Learning.World.testHelloWorld;
 
@@ -38,7 +41,10 @@ public class MainApp {
         //testLinking();
         //testListener();
         //testParse("1");
-        testOuterInner();
+        //testOuterInner();
+        //testResourceARM();
+        //testExecuteAround();
+        testExecuteAroundARM();
     }
 
 }
